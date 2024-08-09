@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+.post {
+    font-family: 'Prompt', sans-serif;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem;
+    line-height: 1.5rem;
+}
+.teachername {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.post-paper {
+    flex-direction: column-reverse;
+    display: flex;
+    height: auto;
+    width: 55%;
+}
+.button {
+    display: flex;
+    justify-content: right;
+}
+@media screen and (max-width: 480px) {
+    .post-button {
+        margin-left: 0;
+    }
+    .post-paper {
+        margin-left: 1.5rem;
+        width: 80%;
+    }
+    .post {
+        width: 79.5%;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 0;
+        padding-bottom: 10%;
+    }
+}

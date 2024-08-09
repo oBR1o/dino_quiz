@@ -1,0 +1,25 @@
+.imgwatering-result {
+    width: 40%;
+    cursor: default;
+}
+.imgfeeding-result {
+    width: 40%;
+    cursor: default;
+}
+
+@media screen and (max-width: 480px) {
+    .imgwatering {
+        width: 80%;
+        cursor: default;
+    }
+    .imgfeeding {
+        width: 80%;
+        cursor: default;
+    }
+    .actname {
+        font-size: 0.875rem;
+    }
+    .Count {
+        font-size: 0.875rem;
+    }
+}

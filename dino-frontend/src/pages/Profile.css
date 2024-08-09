@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+body {
+    font-family: 'Prompt', sans-serif;
+}
+section {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+.profileagree {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color: #F6358A;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
+    padding: 15px;
+    margin: 35px 0px;
+    border: none;
+    cursor: pointer;
+}
+.profileagree:hover,
+.profileagree:focus,
+.profileagree:active {
+background-color: #d62e77;
+}
+.passwordagree {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color: #F6358A;
+    border-radius: 10px;
+    width: 50%;
+    color: white;
+    padding: 15px;
+    margin: 35px 0px;
+    border: none;
+    cursor: pointer;
+}
+.passwordagree:hover,
+.passwordagree:focus,
+.passwordagree:active {
+background-color: #d62e77;
+}
+.headerProfile {
+    display: block;
+    background-color: rgba(173, 255, 47, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    width: 28rem;
+    height: 24rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+h1 {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 480px){
+    header {
+        flex-direction: column;
+    }
+    .headerProfile {
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .profileagree {
+        width: 70%;
+    }
+}

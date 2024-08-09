@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+  font-family: 'Prompt', sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+
+.logo {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red;*/
+  margin: 0 auto;
+}
+
+header {
+  font-family: 'Prompt', sans-serif;
+  height: 100%;
+  justify-content: center;
+  align-items: top;
+  /* border: 1px solid red; */
+  display: flex;
+}
+
+.header-infologin {
+  background-color: rgba(173, 255, 47, 0.5);
+  border-radius: 50px;
+  text-align: center;
+  width: 26rem;
+  height: 26rem;
+  /* border: 1px solid red; */
+  margin-top: 2rem;
+  
+}
+
+.loginbtn {
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+  background-color: #F6358A;
+  border-radius: 10px;
+  width: 60%;
+  color: white;
+  padding: 15px;
+  margin: 28px 0px;
+  border: none;
+  cursor: pointer;
+}
+.loginbtn:hover,
+.loginbtn:focus,
+.loginbtn:active {
+  background-color: #d62e77;
+}
+
+button[type=register-login] {
+  font-family: 'Prompt', sans-serif;
+  font-weight: bold;
+  background-color: #696969;
+  border-radius: 10px;
+  width: 60%;
+  color: white;
+  padding: 15px;
+  margin: 5px 0px;
+  border: none;
+  cursor: pointer;
+}
+button[type=register-login]:hover,
+button[type=register-login]:focus,
+button[type=register-login]:active {
+  background-color: #4e4e4e;
+}
+
+h1 {
+  font-family: 'Prompt', sans-serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px){
+  .header-infologin {
+    margin: auto;
+    margin-top: 2rem;
+    width: 20rem;
+  }
+}

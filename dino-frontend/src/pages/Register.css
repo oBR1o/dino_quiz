@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+header {
+    font-family: 'Prompt', sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    /* border: 1px solid red; */
+}
+
+.header-info {
+    background: rgba(173, 255, 47, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    width: 26rem;
+    height: 37.5rem;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+
+button[type=register] {
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color: #F6358A;
+    border-radius: 10px;
+    width: 60%;
+    color: black;
+    padding: 15px;
+    margin: 25px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+button[type=register] {
+    font-family: 'Prompt', sans-serif;
+    background-color: #F6358A;
+    border-radius: 10px;
+    width: 70%;
+    color: white;
+    padding: 15px;
+    margin: 25px 0px;
+    border: none;
+    cursor: pointer;
+}
+button[type=register]:hover,
+button[type=register-]:focus,
+button[type=register]:active {
+background-color: #d62e77;
+}
+
+footer {
+    font-family: 'Prompt', sans-serif;
+    height: 0;
+    padding: 6rem;
+    text-align: center;
+}
+
+.login-page {
+    display: block;
+}
+
+#studentorteacher {
+    font-family: 'Prompt', sans-serif;
+    display: block;
+    width: 70%;
+    height: 8%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 1.25rem;
+    border: 2px solid #EEB189;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.helpertext {
+    color: #F6358A;
+    font-size: 0.75rem;
+}
+
+@media screen and (max-width: 480px){
+    .header-info {
+        margin: auto;
+        margin-top: 2rem;
+        width: 20rem;
+    }
+}

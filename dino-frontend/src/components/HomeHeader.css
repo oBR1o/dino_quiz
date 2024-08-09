@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+img {
+    display:block;
+    width: 4rem;
+    cursor: pointer;
+}
+.textlogo {
+    cursor: pointer;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header {
+    background: rgba(173, 255, 47, 0.5);
+    height: 80px;
+}
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.logo-container a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.role-name{
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-menu {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+    }
+    .header {
+        padding: 0 2rem;
+    }
+}

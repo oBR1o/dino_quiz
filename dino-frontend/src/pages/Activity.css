@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+body {
+    font-family: 'Prompt', sans-serif;
+}
+.post-paper-act {
+    width: 55%;
+}
+.buttoneq {
+    margin-left: 5%;
+    width: 90%;
+}
+.expdate {
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+.dinoegg {
+    width: 100%;
+    cursor: default;
+}
+.question {
+    text-align: center;
+}
+.access {
+    width: 15rem;
+}
+.denied {
+    width: 15rem;
+}
+@media screen and (max-width: 480px) {
+    .post-paper-act {
+        margin-left: 1.5rem;
+        width: 20rem;
+    }
+    .buttoneq {
+        margin-left: 1rem;
+    }
+    .expdate {
+        font-family: 'Prompt', sans-serif;
+    }
+    .access {
+        width: 6rem;
+    }
+    .denied {
+        width: 6rem;
+    }
+}
